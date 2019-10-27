@@ -4,13 +4,14 @@ main()
 {
     int celsius,fahr;
     int lower,upper,step;
+    
+    printf ("celsius-fahr table\n");
 
     lower = 0;
     upper = 100;
     step = 5;
 
     celsius = lower;
-    printf ("celsius-fahr table\n");
     while (celsius <= upper)
     {fahr = celsius*9/5 + 32;
     printf("%d\t%d\n", celsius,fahr);
