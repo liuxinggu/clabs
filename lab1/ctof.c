@@ -5,7 +5,7 @@ main()
     int celsius,fahr;
     int lower,upper,step;
     
-    printf ("celsius-fahr table\n");
+    printf ("celsius-fahr \n");
 
     lower = 0;
     upper = 100;
